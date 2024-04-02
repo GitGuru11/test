@@ -1,0 +1,94 @@
+.header-container {
+    width: 100%;
+    background-color: #FFF8ED;
+    padding: 10px 0px;
+}
+
+.bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.home {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    width: 222px;
+}
+
+.home-ch {
+    color: #F65038;
+}
+
+.about-ch {
+    color: #9F98D7;
+}
+
+.quick {
+    color: #F65038;
+}
+
+.funds {
+    color:#9F98D7;
+}
+
+.sign {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #F65038;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 48px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.description {
+    color:#F65038;
+    font-size: 68px;
+    font-weight: bold;
+}
+
+.detail {
+    margin:20px 0px;
+    color: #3C2695;
+    font-size: 18px;
+}
+
+.sign-btn {
+    width: 93px;
+    height: 48px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50px;
+    color: #F65038;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content-left {
+    width: 45%;
+}
+
+.header-content-right {
+    width: 45%;
+    height: 637px;
+    background-image: url("../../images/logo.png");
+    background-size: 100% 100%;
+}

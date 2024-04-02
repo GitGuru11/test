@@ -1,0 +1,61 @@
+.body-container {
+    background-image: linear-gradient(60deg, #9A91D1, white);
+    padding: 30px 20px;
+}
+
+.body-left{
+width: 25%;
+}
+
+.body-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+padding: 30px;
+background-color: #FFFFFF;
+border-radius: 21px;
+}
+
+.body-wrap {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+}
+
+.about-us{
+    color: #F65038;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about-content {
+color: #4734A2;
+    font-size: 20px;
+}
+
+.label {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.body-right input {
+    width: 395px;
+    height: 46px;
+    border-radius: 20px;
+    border-style: solid;
+    margin-top: 5px;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 48px;
+    color: white;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color: #F65038;
+    margin: 30px auto;
+}

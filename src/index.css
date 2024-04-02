@@ -1,0 +1,10 @@
+body {
+  box-sizing: border-box;
+  margin: 0px;
+  padding:0px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}

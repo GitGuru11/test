@@ -1,0 +1,43 @@
+.footer-container {
+    background-image: url("../../images/footer.png");
+    background-size: 100% 100%;
+    padding: 100px 50px;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.footer-left {
+    width: 26%;
+}
+
+.footer-right {
+    color: white;
+}
+
+.footer-content {
+    color: white;
+    margin: 15px 0px;
+}
+
+.contact-us {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.icon-wrap {
+    font-size: 18px;
+}
+
+.icon-wrap span {
+    display: inline-block;
+    margin: 8px 0px;
+}
