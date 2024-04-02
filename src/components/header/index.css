@@ -91,7 +91,7 @@
 .header-content-right {
     width: 45%;
     height: 637px;
-    background-image: url("../../res/logo.png");
+    background-image: url("../../../public/static/images/logo.png");
     background-size: 100% 100%;
 }
 
