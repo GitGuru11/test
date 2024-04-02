@@ -89,6 +89,6 @@
 .header-content-right {
     width: 45%;
     height: 637px;
-    background-image: url("../../images/logo.png");
+    background-image: url("../../../public/images/logo.png");
     background-size: 100% 100%;
 }
