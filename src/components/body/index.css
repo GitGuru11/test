@@ -11,6 +11,7 @@ width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 400px;
 
 padding: 30px;
 background-color: #FFFFFF;
@@ -39,8 +40,12 @@ color: #4734A2;
     margin-top: 30px;
 }
 
+.input-group {
+    width: 100%;
+}
+
 .body-right input {
-    width: 395px;
+    width: 100%;
     height: 46px;
     border-radius: 20px;
     border-style: solid;
@@ -58,4 +63,40 @@ color: #4734A2;
     font-size: 20px;
     background-color: #F65038;
     margin: 30px auto;
+}
+
+@media only screen and (max-width: 1024px) {
+    .body-left {
+            width: 35%;
+        }
+    .body-right {
+            width:300px ;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    .body-wrap {
+        flex-direction: column;
+        }
+
+    .body-left {
+        width: 100%;
+    }
+
+    .body-right {
+        margin-top: 30px;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .body-right input{
+        height: 27px;
+    }
+
+        .send-btn {
+            width: 100px;
+            height: 30px;
+        }
 }

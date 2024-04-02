@@ -15,7 +15,7 @@ export default function body() {
           </div>
         </div>
         <div className="body-right">
-          <div>
+          <div className="input-group">
             <div className="label">Your Name</div>
             <input></input>
             <div className="label">Phone number</div>
