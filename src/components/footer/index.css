@@ -31,15 +31,34 @@
 .contact-us {
     font-weight: bold;
     font-size: 22px;
+    margin-bottom: 20px;
 }
 
 .icon-wrap {
+    display: flex;
     font-size: 18px;
+    align-items: center;
+}
+
+.icon-wrap img {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
 }
 
 .icon-wrap span {
     display: inline-block;
     margin: 8px 0px;
+}
+
+.location-container {
+    align-items: flex-start;
+}
+
+.icon-group {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
 }
 
 @media only screen and (max-width: 768px) {
